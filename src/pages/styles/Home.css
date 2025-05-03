@@ -1,0 +1,20 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.home img {
+    width: 250px;
+    margin: 10px auto;
+}
+
+.home h1 {
+    color: white;
+    text-shadow: 0 4px 1px black, 0 6px 1px gold;
+    margin: 10px 0;
+}
