@@ -1,15 +1,11 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to top, black, transparent), url('./assets/NU\ Background.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent), url('./assets/NU\ Background.png');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+  color: #fff;
 }
 
 code {

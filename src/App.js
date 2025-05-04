@@ -12,9 +12,9 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/club1' element={<ClubOne />} />
-        <Route path='/club2' element={<ClubTwo />} />
-        <Route path='/club3' element={<ClubThree />} />
+        <Route path='/NU-Wizards-Circle' element={<ClubOne />} />
+        <Route path='/NU-Google-Developer-Students-Club' element={<ClubTwo />} />
+        <Route path='/NU-Political-Science-Society' element={<ClubThree />} />
       </Routes>
     </Router>
   )

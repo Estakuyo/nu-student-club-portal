@@ -1,14 +1,38 @@
 import './styles/Home.css'
 import NULogo from '../assets/NU Logo.png'
-
-// Components and Pages
-import Navigation from '../components/Navigation'
+import NUWizardsLogo from '../assets/NU Wizards Logo.png'
+import NUGdscLogo from '../assets/NU GDSC Logo.png'
+import NUPoliSci from '../assets/NU PolSci Logo.png'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
     return (
-        <div className="home">
-            <img src={NULogo} alt='NU Logo' />
+        <>
+            <div className="home">
+            <img className='NU-logo' src={NULogo} alt='NU Logo' />
             <h1>NU Student Clubs</h1>
-        </div>
+                <div className='club-wrapper'>
+                    <Link to='/NU-Wizards-Circle'>
+                        <div className='clubNav'>
+                            <img className='club-logo' src={NUWizardsLogo} alt='NU Wizards Logo' />
+                            <h2>NU Wizards Circle</h2>
+                        </div>
+                    </Link>
+                    <Link to='/NU-Google-Developer-Students-Club'>
+                        <div className='clubNav'>
+                            <img className='club-logo' src={NUGdscLogo} alt='NU GDSC Logo' />
+                            <h2>GDSC</h2>
+                        </div>
+                    </Link>
+                    <Link to='/NU-Political-Science-Society'>
+                        <div className='clubNav'>
+                            <img className='club-logo' src={NUPoliSci} alt='NU PoliSci Logo' />
+                            <h2>NUMPOLSCI Society</h2>
+                        </div>
+                    </Link>
+                </div>
+            </div>
+            <footer>Created by: John Martin S. Eustaquio BSIT-MWA Batch 2022</footer>
+        </>
     )
 }
