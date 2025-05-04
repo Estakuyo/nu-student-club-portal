@@ -3,3 +3,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.member-wrapper {
+  width: 90vw;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+  gap: 200px;  
+}
+
+.main-wrapper {
+  height: 100%;
+}

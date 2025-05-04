@@ -1,8 +1,11 @@
-export default function ClubMembers({ MemberName, MemberImage }) {
+import './styles/ClubMember.css'
+
+export default function ClubMembers({ MemberName, MemberImage, MemberPosition }) {
     return (
-        <div className="club-members">
-            <img src={MemberImage} />
-            <h2>{MemberName}</h2>
+        <div className="member-card">
+            <img className="member-img" src={MemberImage} alt={MemberName} />
+            <h3>{MemberName}</h3>
+            <p>{MemberPosition}</p>
         </div>
-    )
+    );
 }
