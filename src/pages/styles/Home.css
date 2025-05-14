@@ -80,3 +80,78 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
     border-top: 2.5px solid gold;
 }
+
+/* Responsive Media Queries */
+
+@media (max-width: 1024px) {
+    .club-wrapper {
+        gap: 60px;
+    }
+
+    .home h1 {
+        font-size: 2.4rem;
+    }
+
+    .intro {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .NU-logo {
+        width: 150px;
+    }
+
+    .home h1 {
+        font-size: 2rem;
+    }
+
+    .intro {
+        font-size: 0.95rem;
+    }
+
+    .clubNav {
+        max-width: 90%;
+        padding: 15px 20px;
+    }
+
+    .club-logo {
+        width: 120px;
+        height: 120px;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .home {
+        padding: 50px 10px;
+    }
+
+    .home h1 {
+        font-size: 1.6rem;
+    }
+
+    .intro {
+        font-size: 0.9rem;
+    }
+
+    .club-wrapper {
+        gap: 40px;
+    }
+
+    .club-logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .clubNav h2 {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.95rem;
+    }
+}

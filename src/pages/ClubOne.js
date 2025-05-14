@@ -15,7 +15,7 @@ export default function ClubOne() {
     ));
 
     return (
-        <>
+        <div className='page-container'>
             <div className='main-wrapper'>
                 <ClubTitle Title={NUWizards.name} ClubLogo={NUWizards.logo} />
                 <ClubInfo ClubDescription={NUWizards.info} />
@@ -24,6 +24,6 @@ export default function ClubOne() {
                 </div>
             </div>
             <footer>Created by: John Martin S. Eustaquio BSIT-MWA Batch 2022</footer>
-        </>
+        </div>
     )
 }
